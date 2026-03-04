@@ -1,0 +1,251 @@
+import java.util.Scanner;
+public class DayCalculate {
+    public static void main(String[] args) { 
+         Scanner read=new Scanner(System.in);
+  int c;
+         System.out.print("Enter Date: ");
+        int a=read.nextInt();
+        System.out.print("Enter Month: ");
+        int b=read.nextInt();
+if(b==1){
+c=a%7;
+if(c==1){
+    System.out.println("its Thursday");
+}
+if(c==2){
+    System.out.println("its Friday");
+}if(c==3){
+    System.out.println("its Saturday");
+}if(c==4){
+    System.out.println("its Sunday");
+}if(c==5){
+    System.out.println("its Monday");
+}if(c==6){
+    System.out.println("its Tuesday");
+}if(c==0){
+    System.out.println("its Wednusday");
+}  
+ }
+
+if(b==2){
+a=a+31;
+    c=a%7;
+if(c==1){
+    System.out.println("its Thursday");
+}
+if(c==2){
+    System.out.println("its Friday");
+}if(c==3){
+    System.out.println("its Saturday");
+}if(c==4){
+    System.out.println("its Sunday");
+}if(c==5){
+    System.out.println("its Monday");
+}if(c==6){
+    System.out.println("its Tuesday");
+}if(c==0){
+    System.out.println("its Wednusday");
+}  
+ }
+if(b==3){
+a=a+59;
+    c=a%7;
+if(c==1){
+    System.out.println("its Thursday");
+}
+if(c==2){
+    System.out.println("its Friday");
+}if(c==3){
+    System.out.println("its Saturday");
+}if(c==4){
+    System.out.println("its Sunday");
+}if(c==5){
+    System.out.println("its Monday");
+}if(c==6){
+    System.out.println("its Tuesday");
+}if(c==0){
+    System.out.println("its Wednusday");
+}  
+ }
+if(b==4){
+a=a+90;
+    c=a%7;
+if(c==1){
+    System.out.println("its Thursday");
+}
+if(c==2){
+    System.out.println("its Friday");
+}if(c==3){
+    System.out.println("its Saturday");
+}if(c==4){
+    System.out.println("its Sunday");
+}if(c==5){
+    System.out.println("its Monday");
+}if(c==6){
+    System.out.println("its Tuesday");
+}if(c==0){
+    System.out.println("its Wednusday");
+}  
+ }
+if(b==5){
+a=a+120;
+    c=a%7;
+if(c==1){
+    System.out.println("its Thursday");
+}
+if(c==2){
+    System.out.println("its Friday");
+}if(c==3){
+    System.out.println("its Saturday");
+}if(c==4){
+    System.out.println("its Sunday");
+}if(c==5){
+    System.out.println("its Monday");
+}if(c==6){
+    System.out.println("its Tuesday");
+}if(c==0){
+    System.out.println("its Wednusday");
+}  
+ }
+if(b==6){
+a=a+151;
+    c=a%7;
+if(c==1){
+    System.out.println("its Thursday");
+}
+if(c==2){
+    System.out.println("its Friday");
+}if(c==3){
+    System.out.println("its Saturday");
+}if(c==4){
+    System.out.println("its Sunday");
+}if(c==5){
+    System.out.println("its Monday");
+}if(c==6){
+    System.out.println("its Tuesday");
+}if(c==0){
+    System.out.println("its Wednusday");
+}  
+ }
+if(b==7){
+a=a+181;
+    c=a%7;
+if(c==1){
+    System.out.println("its Thursday");
+}
+if(c==2){
+    System.out.println("its Friday");
+}if(c==3){
+    System.out.println("its Saturday");
+}if(c==4){
+    System.out.println("its Sunday");
+}if(c==5){
+    System.out.println("its Monday");
+}if(c==6){
+    System.out.println("its Tuesday");
+}if(c==0){
+    System.out.println("its Wednusday");
+}  
+ }
+if(b==8){
+a=a+212;
+    c=a%7;
+if(c==1){
+    System.out.println("its Thursday");
+}
+if(c==2){
+    System.out.println("its Friday");
+}if(c==3){
+    System.out.println("its Saturday");
+}if(c==4){
+    System.out.println("its Sunday");
+}if(c==5){
+    System.out.println("its Monday");
+}if(c==6){
+    System.out.println("its Tuesday");
+}if(c==0){
+    System.out.println("its Wednusday");
+}  
+ }
+if(b==9){
+a=a+242;
+    c=a%7;
+if(c==1){
+    System.out.println("its Thursday");
+}
+if(c==2){
+    System.out.println("its Friday");
+}if(c==3){
+    System.out.println("its Saturday");
+}if(c==4){
+    System.out.println("its Sunday");
+}if(c==5){
+    System.out.println("its Monday");
+}if(c==6){
+    System.out.println("its Tuesday");
+}if(c==0){
+    System.out.println("its Wednusday");
+}  
+ }
+ if(b==10){
+a=a+273;
+    c=a%7;
+if(c==1){
+    System.out.println("its Thursday");
+}
+if(c==2){
+    System.out.println("its Friday");
+}if(c==3){
+    System.out.println("its Saturday");
+}if(c==4){
+    System.out.println("its Sunday");
+}if(c==5){
+    System.out.println("its Monday");
+}if(c==6){
+    System.out.println("its Tuesday");
+}if(c==0){
+    System.out.println("its Wednusday");
+}  
+ }
+  if(b==11){
+a=a+303;
+    c=a%7;
+if(c==1){
+    System.out.println("its Thursday");
+}
+if(c==2){
+    System.out.println("its Friday");
+}if(c==3){
+    System.out.println("its Saturday");
+}if(c==4){
+    System.out.println("its Sunday");
+}if(c==5){
+    System.out.println("its Monday");
+}if(c==6){
+    System.out.println("its Tuesday");
+}if(c==0){
+    System.out.println("its Wednusday");
+}  
+ }
+   if(b==12){
+a=a+334;
+    c=a%7;
+if(c==1){
+    System.out.println("its Thursday");
+}
+if(c==2){
+    System.out.println("its Friday");
+}if(c==3){
+    System.out.println("its Saturday");
+}if(c==4){
+    System.out.println("its Sunday");
+}if(c==5){
+    System.out.println("its Monday");
+}if(c==6){
+    System.out.println("its Tuesday");
+}if(c==0){
+    System.out.println("its Wednusday");
+}  
+ }
+}
+}
